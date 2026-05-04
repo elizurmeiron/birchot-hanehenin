@@ -2486,6 +2486,9 @@ const slides = [
                 <tr><td>👔 <strong>בגד/כלי חדש וחשוב</strong></td><td>בעת רכישה או שימוש ראשון</td><td>שו"ע רכג, ד</td></tr>
                 <tr><td>🏠 <strong>בית חדש</strong></td><td>בכניסה לבית שקנה או בנה לעצמו</td><td>שו"ע רכג, ג</td></tr>
                 <tr><td>🤝 <strong>ראיית חבר אהוב</strong></td><td>שלא ראהו שלושים יום ושמח בראייתו</td><td>שו"ע רכב, א</td></tr>
+                <tr><td>🕊️ <strong>שמחות מצווה</strong></td><td>פדיון הבן (כל העדות); ברית מילה (מחלוקת ספרדים-אשכנזים); חתונה (מנהג ספרדים – טלית). פירוט בהמשך</td><td>שו"ע יו"ד רסה, ז; שה, י</td></tr>
+                <tr><td>👶 <strong>לידת בן או בת</strong></td><td>בן: <em>הטוב והמטיב</em> (לאב ולאם). בת: <em>שהחיינו</em> בראייה הראשונה. פירוט בהמשך</td><td>שו"ע רכג, א</td></tr>
+                <tr><td>📨 <strong>שמועה טובה אישית</strong></td><td>בשורה משמחת שזכה בה לבדו (קידום, תפקיד חדש)</td><td>שו"ע רכב, א</td></tr>
             </tbody>
         </table>
     </div>
@@ -2496,8 +2499,8 @@ const slides = [
     </div>
 
     <div class="source-box">
-        <div class="source-label">📖 שו"ע רכב–רכג; רכה; פניני הלכה ברכות יד</div>
-        ברכת שהחיינו נאמרת על חוויות חדשות ומחודשות שמביאות שמחה. העיקרון: "הגיענו לזמן הזה" – שמחה על כך שזכינו לחיות ולהגיע לרגע זה.
+        <div class="source-label">📖 שו"ע רכב–רכג; רכה; יו"ד רסה, ז; שה, י; פניני הלכה ברכות יז</div>
+        ברכת שהחיינו נאמרת על חוויות חדשות ומחודשות שמביאות שמחה. העיקרון: "הגיענו לזמן הזה" – שמחה על כך שזכינו לחיות ולהגיע לרגע זה. כשהשמחה משותפת לשניים – נאמרת ברכת "הטוב והמטיב" במקומה.
     </div>`
     },
     // שקף 43 - SheHechianu - yamim tovim
@@ -2783,9 +2786,218 @@ const slides = [
         שהחיינו על ראיית חבר אהוב לאחר שלושים יום. לאחר שנה – גם "מחיה המתים" (ללא שם ומלכות). תנאי: שמחה אמיתית בראייתו.
     </div>`
     },
+    // שקף 47 - SheHechianu - simchot mitzva (brit, pidyon haben, chatuna, leida)
+    {
+        title: "שהחיינו על שמחות מצווה ולידה",
+        menu: "שהחיינו – שמחות מצווה",
+        section: "ברכות נוספות",
+        content: `
+    <div class="slide-header">
+        <h1>שהחיינו על שמחות מצווה ולידה</h1>
+        <div class="subtitle">ברית מילה, פדיון הבן, חתונה ולידת ילד</div>
+    </div>
+
+    <p>בנוסף לחגים, לפירות חדשים ולבגדים, חכמים תיקנו לברך שהחיינו גם על מצוות אישיות שאינן באות בכל יום. הרמב"ם הגדיר זאת ב<strong>"מצווה שאינה תדירה ואינה מצויה בכל עת, שהרי היא דומה למצווה שהיא מזמן לזמן"</strong> (הלכות ברכות יא, ט). בחלק מן המצוות יש מחלוקת מובהקת בין המנהגים, ובאחרות הדין מוסכם.</p>
+
+    <div class="section-title">ברית מילה – מחלוקת מנהגים</div>
+    <div class="table-container">
+        <table>
+            <thead><tr><th>מנהג</th><th>הברכה</th><th>מקור</th></tr></thead>
+            <tbody>
+                <tr style="background:var(--correct-bg)">
+                    <td><strong>ספרדים</strong> ועדות המזרח</td>
+                    <td>אבי הבן מברך שהחיינו <strong>על כל ברית מילה</strong> – בין שהאב הוא המוהל בעצמו ובין שאדם אחר מל</td>
+                    <td>שו"ע יו"ד רסה, ז (כדעת הרמב"ם)</td>
+                </tr>
+                <tr>
+                    <td><strong>אשכנזים</strong></td>
+                    <td>אין מברכים שהחיינו על ברית רגילה. במל את בנו <strong>הבכור</strong> שחייב בפדיון – לרמ"א מברך שהחיינו בשעת המילה (ולא בעת הפדיון). ולש"ך אף בבכור אין מברכים</td>
+                    <td>רמ"א יו"ד רסה, ז; ש"ך שם</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="example-box">
+        <div class="example-label">⚖️ שורש המחלוקת</div>
+        <p>הרמב"ם רואה במילה מצווה שאינה תדירה ושייכת לברכת הזמן (כיון שהוא ית' מסר את חיוב המצווה לאב, ובכל בן זה חידוש). הראשונים האשכנזים חששו לברך שהחיינו על מצווה הכרוכה בצערו של התינוק, או שאינה באה ממש "מזמן לזמן".</p>
+    </div>
+
+    <div class="section-title">פדיון הבן – לכל העדות</div>
+    <p>בפדיון הבכור (ביום השלושים ואחד ללידתו) האב מברך שתי ברכות: "אשר קדשנו במצוותיו וצוונו על פדיון הבן" ומיד אחריה "שהחיינו" (שו"ע יו"ד שה, י). דין זה מוסכם בכל העדות, ומקורו בגמרא במסכת פסחים קכא, ב.</p>
+
+    <div class="section-title">חתונה ובר מצווה</div>
+    <div class="table-container">
+        <table>
+            <thead><tr><th>אירוע</th><th>הברכה</th><th>הערה</th></tr></thead>
+            <tbody>
+                <tr>
+                    <td>🤵 חתונה – מנהג ספרדים</td>
+                    <td>החתן לובש <strong>טלית חדשה</strong> תחת החופה ומברך עליה שהחיינו</td>
+                    <td>בן איש חי שנה ראשונה, שופטים יב; פנה"ל משפחה ה</td>
+                </tr>
+                <tr>
+                    <td>🤵 חתונה – מנהג אשכנזים</td>
+                    <td>אין ברכה ייחודית על עצם הנישואין. נהוג שהחתן או הכלה לובשים בגד חדש ומברכים עליו שהחיינו</td>
+                    <td>אין מקור לברכה מיוחדת על עצם החתונה</td>
+                </tr>
+                <tr>
+                    <td>🎉 בר מצווה / בת מצווה</td>
+                    <td>אין שהחיינו על עצם המאורע. נהוג ללבוש בגד חדש או לאכול פרי חדש ולכוון בברכת שהחיינו על ההגעה למצוות</td>
+                    <td>פנה"ל ברכות יז, ה</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section-title">לידת בן ולידת בת – שהחיינו או הטוב והמטיב?</div>
+    <p>הברכה על לידת ילד תלויה במי שמחים בה (משנה ברכות נד, א; שו"ע או"ח רכג, א):</p>
+    <div class="two-cols">
+        <div class="card">
+            <div class="card-title">👶 לידת בן → הטוב והמטיב</div>
+            <div class="card-text">השמחה משותפת לאב ולאם. אחד מהם מברך והשני עונה אמן. אם האב אינו לצד היולדת – יברך כשישמע את הבשורה (מ"ב רכג, ב; פנה"ל ברכות יז, יג).</div>
+        </div>
+        <div class="card">
+            <div class="card-title">👧 לידת בת → שהחיינו</div>
+            <div class="card-text">המנהג המקובל לברך שהחיינו בעת הראייה הראשונה. ההורים השמחים בלידת בתם כבלידת בן רשאים לברך הטוב והמטיב (מ"ב רכג, ב; פנה"ל ברכות יז, יג).</div>
+        </div>
+    </div>
+    <div class="example-box">
+        <div class="example-label">📌 הורה יחיד או אלמן/ה</div>
+        <p>אם רק אחד מההורים בחיים בעת הלידה (בעקבות אסון או מצב אחר) – מברך <strong>שהחיינו</strong>, מפני ששמחתו אישית בלבד (מ"ב רכג, ד–ו).</p>
+    </div>
+
+    <div class="section-title">שמועה טובה ושמועה רעה</div>
+    <p>השומע בשורה משמחת על דבר שכבר אירע (ברכות נד, א; שו"ע או"ח רכב, א–ב):</p>
+    <div class="two-cols">
+        <div class="card">
+            <div class="card-title">טובה לו לבדו → שהחיינו</div>
+            <div class="card-text">דוגמה: קיבל קידום בעבודה, זכה במלגה, התקבל לתפקיד שחיכה לו.</div>
+        </div>
+        <div class="card">
+            <div class="card-title">טובה לו ולאחרים → הטוב והמטיב</div>
+            <div class="card-text">דוגמה: שותפים שהשקעתם הצליחה במיוחד, ירידת גשמים על שדה שיש לו שותף.</div>
+        </div>
+    </div>
+    <p>שמע בשורה רעה ממש – מברך "ברוך דיין האמת" (שם).</p>
+
+    <div class="highlight-box success">
+        <div class="highlight-box-title">💡 העיקרון המשותף: שהחיינו אישית, הטוב והמטיב משותפת</div>
+        <strong>שהחיינו</strong> – שמחה של אדם אחד, גם על דבר שאינו מוחשי (כשמועה טובה).<br>
+        <strong>הטוב והמטיב</strong> – שמחה של שניים או יותר על <strong>הטבה מוחשית</strong> (לידת בן, יין נוסף, בית משותף).<br>
+        בספק בין שתי הברכות – מברכים שהחיינו, שכן היא פוטרת בדיעבד גם את החייב בהטוב והמטיב, אך לא להפך (בה"ל רכג ד"ה שהיא; פנה"ל ברכות יז, ג).
+    </div>
+
+    <div class="source-box">
+        <div class="source-label">📖 שו"ע יו"ד רסה, ז; שה, י; שו"ע או"ח רכב, א–ב; רכג, א; פנה"ל ברכות יז, ג, יג; פנה"ל משפחה ה</div>
+        שהחיינו על שמחות מצווה אישיות. בברית מילה – ספרדים מברכים, אשכנזים אינם מברכים (לבד מבכור לרמ"א). בפדיון הבן – הכול מברכים. לידת בן – הטוב והמטיב; לידת בת – שהחיינו.
+    </div>`
+    },
+    // שקף 48 - HaTov VeHaMetiv on additional wine
+    {
+        title: "הטוב והמטיב על יין נוסף",
+        menu: "הטוב והמטיב – יין נוסף",
+        section: "ברכות נוספות",
+        content: `
+    <div class="slide-header">
+        <h1>ברכת הטוב והמטיב על יין נוסף</h1>
+        <div class="subtitle">ברכת ההודאה על ריבוי יין בצוותא</div>
+    </div>
+
+    <div class="bracha-text">בָּרוּךְ אַתָּה ה' אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, הַטּוֹב וְהַמֵּטִיב</div>
+
+    <div class="example-box">
+        <div class="example-label">⚠️ שתי "הטוב והמטיב" שונות</div>
+        <p>חשוב להבחין בין שתי ברכות הנושאות שם זה:</p>
+        <ul style="margin:0.4em 0 0 1.2em;padding:0">
+            <li><strong>הברכה הרביעית בברכת המזון</strong> – ברכה ארוכה ("הטוב והמטיב לכל...") שתוקנה ביבנה כנגד הרוגי ביתר.</li>
+            <li><strong>ברכת השבח על יין נוסף</strong> – ברכה קצרה הנידונה בשקף זה, שאינה חלק מברכת המזון.</li>
+        </ul>
+    </div>
+
+    <div class="section-title">המקור והרעיון</div>
+    <p>בגמרא (ברכות נט, ב) למדנו: "אף על פי שאמרו 'שינוי יין אינו צריך לברך' – אומר ברוך הטוב והמטיב". כלומר, יין שני אינו טעון ברכת "הגפן" חדשה (שהראשונה כבר פטרה אותו), אך תוקנה עליו ברכת הודאה מיוחדת על ריבוי היין שנהנים ממנו בצוותא.</p>
+    <p>דין זה ייחודי ליין: סוגים שונים של לחם או בשר אינם טעונים ברכה כפולה. כותב על כך הרב מלמד: <em>"רק על יין תקנו ברכה על ריבוי סוגיו, משום שיש בו סגולה מיוחדת – שבנוסף לכך שהוא משביע הוא גם משמח, ולכל יין ויין אופי משלו, וכששותים עוד סוג של יין בצוותא, השמחה מתרבה"</em> (פנה"ל ברכות ז, ז).</p>
+
+    <div class="section-title">תנאי הברכה</div>
+    <div class="table-container">
+        <table>
+            <thead><tr><th>תנאי</th><th>פירוט</th><th>מקור</th></tr></thead>
+            <tbody>
+                <tr style="background:var(--correct-bg)">
+                    <td><strong>1. שני יינות שונים</strong></td>
+                    <td>זנים שונים, יקבים שונים, או שנת בציר אחרת – כל שיש שוני שניכר בטעם. גם בקבוקים מאותו זן הנעשים בנפרד נחשבים כשני מינים</td>
+                    <td>שו"ע קעה, א, ו</td>
+                </tr>
+                <tr style="background:var(--correct-bg)">
+                    <td><strong>2. השני אינו גרוע מן הראשון</strong></td>
+                    <td>אם השני ידוע כגרוע באופן ניכר – אין מברכים. בספק – מברכים, ובלבד שלא ידוע שהוא גרוע</td>
+                    <td>שו"ע קעה, ב; מ"ב יד</td>
+                </tr>
+                <tr style="background:var(--correct-bg)">
+                    <td><strong>3. שניים או יותר שותים יחד</strong></td>
+                    <td>"הטוב לי וְהמטיב לחברי". איש ואשתו, או הורה וילדו – נחשבים כשניים</td>
+                    <td>שו"ע קעה, ד</td>
+                </tr>
+                <tr>
+                    <td><strong>4. ללא היסח הדעת</strong></td>
+                    <td>בעת ברכת ה"גפן" על היין הראשון, היה בדעתם להמשיך ולשתות יין. אם החליטו שלא לשתות עוד – אין מברכים</td>
+                    <td>הלכה ברורה קעה; ילקוט יוסף קעה</td>
+                </tr>
+                <tr>
+                    <td><strong>5. נשאר מן היין הראשון (לרבים מן האחרונים)</strong></td>
+                    <td>הביאו את היין השני לפני שנגמר הראשון – יש כאן ריבוי יין; אם הביאו רק לאחר שנגמר – לרוב הפוסקים אין מברכים. ולרמ"א מברכים אף בנגמר</td>
+                    <td>רמ"א קעה, א; מ"ב טו (להחמיר)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section-title">מקרים מיוחדים</div>
+    <div class="cards-grid">
+        <div class="card">
+            <div class="card-icon">🍷</div>
+            <div class="card-title">היה לפניו לפני הברכה</div>
+            <div class="card-text">לרוב הפוסקים, אם שני היינות עמדו על השולחן בעת ברכת "הגפן" על הראשון – עדיין יברך "הטוב והמטיב" על השני, שכן ברכה זו היא ברכת שבח ולא ברכת נהנין. לחומרא ראוי להסיר את היין השני בעת הברכה הראשונה (פנה"ל ברכות ז, ח; ילקוט יוסף קעה).</div>
+        </div>
+        <div class="card">
+            <div class="card-icon">🟥</div>
+            <div class="card-title">יין אדום ואחריו לבן</div>
+            <div class="card-text">אף שהלבן גרוע מן האדום, יש מברכים עליו "הטוב והמטיב", שכן ללבן מעלה של בריאות (שו"ע קעה, ב, על פי המרדכי). אך פוסקים רבים חולקים, ולכן בספק זה רבים נמנעים מלברך.</div>
+        </div>
+        <div class="card">
+            <div class="card-icon">📊</div>
+            <div class="card-title">שניהם לפניו, אחד טוב מובהקת</div>
+            <div class="card-text">יברך "הגפן" על המשובח ויפטור את הגרוע, ולא יברך "הטוב והמטיב" כלל – מפני שהכלל הוא "מברך על העיקר ועל החביב תחילה" (שו"ע קעה, ג).</div>
+        </div>
+        <div class="card">
+            <div class="card-icon">🍷🍷🍷</div>
+            <div class="card-title">יין שלישי ורביעי</div>
+            <div class="card-text">על כל יין נוסף השונה מקודמיו מברך "הטוב והמטיב". להידור, ראוי להסיר מן השולחן את היינות הנוספים בעת הברכה על השני (פנה"ל ברכות ז, ח; מ"ב יד).</div>
+        </div>
+    </div>
+
+    <div class="section-title">כיצד מברכים?</div>
+    <p>בסעודה שבה האנשים אוכלים ועוסקים – עדיף שכל אחד יברך לעצמו, שמא יקדימו קנה לוושט בעניית "אמן" (שו"ע קעה, ה). בשתייה ללא אכילה – אחד יכול לברך לכולם והם עונים אמן (רמ"א שם). הברכה נאמרת לפני השתייה מן היין השני.</p>
+
+    <div class="highlight-box">
+        <div class="highlight-box-title">💡 הזדמנות לברכה</div>
+        ברכה זו אינה שכיחה כיום, ולכן יש המהדרים לקיימה: בסעודות שבת, חג, ברית או חתונה – מביאים שני יינות מובהקים שונים זה מזה (זן או יקב), וכך זוכים לברך. גם בסעודת פורים שבה רבים מקבלים יינות משונים זה מזה במשלוחי מנות, מצויה ברכה זו.
+    </div>
+
+    <div class="example-box">
+        <div class="example-label">📌 ספק לעצמו לעומת בצוותא</div>
+        <p>אדם השותה יין לבדו – אינו מברך "הטוב והמטיב" אף אם הביאו לו יין שני. שמחת היין נחשבת אמיתית רק בצוותא, וכך משמע מלשון הברכה: "הטוב <em>לי</em> וְהמטיב <em>לחברי</em>" (שו"ע קעה, ד).</p>
+    </div>
+
+    <div class="source-box">
+        <div class="source-label">📖 ברכות נט, ב; שו"ע או"ח קעה (ו' סעיפים); מ"ב שם; פניני הלכה ברכות ז, ז–ח; ילקוט יוסף קעה; הלכה ברורה ח"ט סימן קעה</div>
+        ברכת הטוב והמטיב על יין שני שונה ושאינו גרוע, כששתיים או יותר שותים יחד. ברכה זו היא ברכת שבח על ריבוי היין בצוותא, ייחודית ליין מבין כל המאכלים והמשקאות.
+    </div>`
+    },
 
 
-    // שקף 47 - Quiz rishonot
+    // שקף 49 - Quiz rishonot
     {
         title: "חידון – ברכות ראשונות",
         menu: "חידון – ברכות ראשונות",
@@ -3182,7 +3394,7 @@ const slides = [
 
 `
     },
-    // שקף 48 - Quiz acharonot
+    // שקף 50 - Quiz acharonot
     {
         title: "חידון – ברכות אחרונות",
         menu: "חידון – ברכות אחרונות",
@@ -3545,7 +3757,7 @@ const slides = [
 
 `
     },
-    // שקף 49 - Quiz nosafot
+    // שקף 51 - Quiz nosafot
     {
         title: "חידון – ברכות נוספות",
         menu: "חידון – ברכות נוספות",
@@ -3553,7 +3765,7 @@ const slides = [
         content: `
     <div class="slide-header">
         <h1>חידון – בדוק את עצמך!</h1>
-        <div class="subtitle">25 שאלות – שהחיינו, ריח ועוד</div>
+        <div class="subtitle">34 שאלות – שהחיינו, הטוב והמטיב, ריח ועוד</div>
     </div>
 
     <div class="quiz-container">
@@ -3906,9 +4118,135 @@ const slides = [
         </div>
     </div>
 
+    <div class="quiz-container">
+        <div class="quiz-question">26. אבי הבן בברית מילה רגילה (לא בכור) – מנהג ספרדים?</div>
+        <div class="quiz-options">
+            <button class="quiz-option" onclick="checkQuizQ(this, true, 'qc26')">מברך שהחיינו</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc26')">אינו מברך כלל</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc26')">מברך הטוב והמטיב</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc26')">מברך רק אם המוהל הוא האב</button>
+        </div>
+        <div class="quiz-explanation" id="qc26">
+            ✅ לפי הרמב"ם והשו"ע יו"ד רסה, ז – אבי הבן מברך שהחיינו על כל מילה ומילה. אשכנזים (רמ"א): אין מברכים, אלא אם כן מל את בנו הבכור החייב בפדיון.
+            <button class="ref-btn" onclick="goToSlide(48)">← ראה שקף 47</button>
+        </div>
+    </div>
+
+    <div class="quiz-container">
+        <div class="quiz-question">27. פדיון הבן הבכור – האב מברך?</div>
+        <div class="quiz-options">
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc27')">"על פדיון הבן" בלבד</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, true, 'qc27')">"על פדיון הבן" + שהחיינו</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc27')">הטוב והמטיב</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc27')">מחלוקת ספרדים-אשכנזים</button>
+        </div>
+        <div class="quiz-explanation" id="qc27">
+            ✅ בפדיון הבן האב מברך שתי ברכות: "על פדיון הבן" ושהחיינו. דין מוסכם בכל העדות (שו"ע יו"ד שה, י).
+            <button class="ref-btn" onclick="goToSlide(48)">← ראה שקף 47</button>
+        </div>
+    </div>
+
+    <div class="quiz-container">
+        <div class="quiz-question">28. חתן ספרדי תחת החופה – על מה מברכים שהחיינו?</div>
+        <div class="quiz-options">
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc28')">על עצם הנישואין</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, true, 'qc28')">על טלית חדשה שלובש החתן</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc28')">על הכלה</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc28')">אין שהחיינו בחתונה</button>
+        </div>
+        <div class="quiz-explanation" id="qc28">
+            ✅ למנהג ספרדים, החתן מתעטף בטלית חדשה לאחר הקידושין ומברך עליה שהחיינו, ובכך מודה גם על שמחת החתונה (בן איש חי שופטים יב).
+            <button class="ref-btn" onclick="goToSlide(48)">← ראה שקף 47</button>
+        </div>
+    </div>
+
+    <div class="quiz-container">
+        <div class="quiz-question">29. נולד לכם בן זכר – מה מברכים?</div>
+        <div class="quiz-options">
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc29')">שהחיינו (האב והאם)</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, true, 'qc29')">הטוב והמטיב (האב והאם)</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc29')">שהחיינו האב, הטוב והמטיב האם</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc29')">לא מברכים עד הברית</button>
+        </div>
+        <div class="quiz-explanation" id="qc29">
+            ✅ על לידת בן – הטוב והמטיב, מפני ששמחה זו משותפת לאב ולאם (שו"ע רכג, א). אחד מברך והשני עונה אמן.
+            <button class="ref-btn" onclick="goToSlide(48)">← ראה שקף 47</button>
+        </div>
+    </div>
+
+    <div class="quiz-container">
+        <div class="quiz-question">30. נולדה לכם בת – מה מברכים?</div>
+        <div class="quiz-options">
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc30')">הטוב והמטיב</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, true, 'qc30')">שהחיינו בעת הראייה הראשונה</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc30')">לא מברכים</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc30')">מחיה המתים</button>
+        </div>
+        <div class="quiz-explanation" id="qc30">
+            ✅ על לידת בת – שהחיינו בעת הראייה הראשונה (מ"ב רכג, ב; פנה"ל ברכות יז, יג). השמחים בלידת בתם כבלידת בן רשאים לברך הטוב והמטיב.
+            <button class="ref-btn" onclick="goToSlide(48)">← ראה שקף 47</button>
+        </div>
+    </div>
+
+    <div class="quiz-container">
+        <div class="quiz-question">31. שתיתם יין בקידוש, ועכשיו הביאו יין שני שונה. מה מברכים?</div>
+        <div class="quiz-options">
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc31')">בורא פרי הגפן שוב</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, true, 'qc31')">הטוב והמטיב (אם יש שניים שותים יחד)</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc31')">שהחיינו</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc31')">אין ברכה כלל</button>
+        </div>
+        <div class="quiz-explanation" id="qc31">
+            ✅ על יין שני שונה (בזן או ביקב) ושאינו גרוע, כששניים או יותר שותים יחד – מברכים "הטוב והמטיב" (שו"ע או"ח קעה, א–ד). הברכה הראשונה ("הגפן") פוטרת מבחינת ברכת הנהנין.
+            <button class="ref-btn" onclick="goToSlide(49)">← ראה שקף 48</button>
+        </div>
+    </div>
+
+    <div class="quiz-container">
+        <div class="quiz-question">32. אדם השותה יין לבדו, הביאו לו יין שני משובח – מברך?</div>
+        <div class="quiz-options">
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc32')">כן – הטוב והמטיב</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, true, 'qc32')">לא – אין מברכים אלא בצוותא של שניים</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc32')">כן – שהחיינו</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc32')">רק אם היין השני יקר במיוחד</button>
+        </div>
+        <div class="quiz-explanation" id="qc32">
+            ✅ ברכת הטוב והמטיב נתקנה על שמחה בצוותא: "הטוב לי והמטיב לחברי". יחיד אינו מברך אף אם הביאו לו יין משובח (שו"ע קעה, ד).
+            <button class="ref-btn" onclick="goToSlide(49)">← ראה שקף 48</button>
+        </div>
+    </div>
+
+    <div class="quiz-container">
+        <div class="quiz-question">33. שני יינות לפני הברכה הראשונה – אחד טוב מהשני באופן מובהק. מה מברכים?</div>
+        <div class="quiz-options">
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc33')">הגפן על הגרוע, ואחר כך הטוב והמטיב על הטוב</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, true, 'qc33')">הגפן על הטוב – ופוטר את הגרוע. אין הטוב והמטיב</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc33')">שתי ברכות הגפן נפרדות</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc33')">הטוב והמטיב על שניהם יחד</button>
+        </div>
+        <div class="quiz-explanation" id="qc33">
+            ✅ הכלל: "מברך על העיקר ועל החביב תחילה". כשמברך על המשובח, פוטר גם את הגרוע, ואז אין מקום לברכת הטוב והמטיב (שו"ע קעה, ג).
+            <button class="ref-btn" onclick="goToSlide(49)">← ראה שקף 48</button>
+        </div>
+    </div>
+
+    <div class="quiz-container">
+        <div class="quiz-question">34. שתיתם יין אדום ואחר כך הביאו יין לבן (פחות איכותי) – מברכים הטוב והמטיב?</div>
+        <div class="quiz-options">
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc34')">תמיד מברכים – זן שונה</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc34')">לעולם אין מברכים – הלבן גרוע</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, true, 'qc34')">לרמ"א ומרדכי מברכים (הלבן בריא יותר); ויש פוסקים החולקים</button>
+            <button class="quiz-option" onclick="checkQuizQ(this, false, 'qc34')">רק אם שתו רביעית מכל אחד</button>
+        </div>
+        <div class="quiz-explanation" id="qc34">
+            ✅ לדעת המרדכי המובא בשו"ע (קעה, ב): מברכים, שכן ללבן מעלה של בריאות. רבים מהפוסקים חולקים, ולכן בספק רבים נמנעים.
+            <button class="ref-btn" onclick="goToSlide(49)">← ראה שקף 48</button>
+        </div>
+    </div>
+
 `
     },
-    // שקף 50 - Sources
+    // שקף 52 - Sources
     {
         title: "מקורות והמלצות",
         menu: "מקורות",
@@ -3949,6 +4287,9 @@ const slides = [
                 <tr><td>ברכות על ריח</td><td>שו"ע רטז</td></tr>
                 <tr><td>שהחיינו – כלים, בגדים, פרי חדש</td><td>שו"ע רכב–רכה</td></tr>
                 <tr><td>שהחיינו – ימים טובים, מצוות</td><td>שו"ע תפב, תר, תקפה, תרמא, תרעו, תרצב</td></tr>
+                <tr><td>שהחיינו על מילה ופדיון הבן</td><td>שו"ע יו"ד רסה, ז; שה, י</td></tr>
+                <tr><td>הטוב והמטיב על יין נוסף</td><td>שו"ע או"ח קעה</td></tr>
+                <tr><td>הטוב והמטיב ושהחיינו על שמחות</td><td>פנה"ל ברכות יז</td></tr>
                 <tr><td>מאכל איסור</td><td>שו"ע קצו</td></tr>
                 <tr><td>מתי לא מברכים (הנאה)</td><td>שו"ע קצז, רד</td></tr>
             </tbody>
